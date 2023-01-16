@@ -1,31 +1,52 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-color: #036564;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.conteudo{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.photo{
+  width: 15rem;
 }
 
-.App-link {
-  color: #61dafb;
+.sobre{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  
 }
 
-.heart {
-  color: #ff0000;
+@media (max-width: 813px) { 
+  .sobre{
+    flex-direction: column-reverse;
+  }
+ }
+
+
+
+
+
+.footer{
+  background-color: #031634;
+  height: 6rem;
 }
 
-.small {
-  font-size: 0.75rem;
-}
+
+
+.color1 { background-color: #e8ddcb };
+.color2 { background-color: #cdb380 };
+.color3 { background-color: #036564 };
+.color4 { background-color: #033649 };
+.color5 { background-color: #031634 };
