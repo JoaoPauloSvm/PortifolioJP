@@ -13,6 +13,7 @@ body{
 .conteudo{
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
 }
 .photo{
@@ -40,9 +41,42 @@ body{
     font-size: 15px;
   }
  }
+.teste{
+  display: flex;
+  width: 75%;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.conhecimento{
+  display: flex;
+  
+  justify-content: space-between;
 
+}
+.conhecimento > ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.conhecimento > ul > li{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
 
-
+@media (max-width: 600px) { 
+  .teste{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .conhecimento > ul > li{
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+  }
+ }
 
 
 .footer{
