@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PortifolioJP/static/css/main.2c2e67d9.css",
+    "main.js": "/PortifolioJP/static/js/main.be66c8f5.js",
+    "static/js/496.0320d045.chunk.js": "/PortifolioJP/static/js/496.0320d045.chunk.js",
+    "static/media/foto.jpg": "/PortifolioJP/static/media/foto.ae7fe3dc961de6203b7f.jpg",
+    "static/media/favicon.ico": "/PortifolioJP/static/media/favicon.f3fb7e3dca7062a27f17.ico",
+    "static/media/dio-icon.png": "/PortifolioJP/static/media/dio-icon.7e6707c88ed71d055a2b.png",
+    "static/media/react-native.png": "/PortifolioJP/static/media/react-native.3d8c5bf10a177bd743e9.png",
+    "index.html": "/PortifolioJP/index.html",
+    "main.2c2e67d9.css.map": "/PortifolioJP/static/css/main.2c2e67d9.css.map",
+    "main.be66c8f5.js.map": "/PortifolioJP/static/js/main.be66c8f5.js.map",
+    "496.0320d045.chunk.js.map": "/PortifolioJP/static/js/496.0320d045.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c2e67d9.css",
+    "static/js/main.be66c8f5.js"
+  ]
+}
