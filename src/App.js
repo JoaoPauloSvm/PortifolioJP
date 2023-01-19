@@ -13,11 +13,11 @@ function App() {
       <Router>
      <Nav/>
      <Routes>
-      <Route path = "/pt" exact element = {<Conteudo/>}/>
+      <Route path = "/PortifolioJP" exact element = {<Conteudo/>}/>
       <Route path = "/eng"  element = {<Content/>}/>
      </Routes>
       <Routes>
-      <Route path = "/pt" exact element = {<Footer texto =  "Portifólio desenvolvido com o React e Boostrap"/>}/>
+      <Route path = "/PortifolioJP" exact element = {<Footer texto =  "Portifólio desenvolvido com o React e Boostrap"/>}/>
       <Route path = "/eng" element = {<Footer texto = "Portfolio developed with React and Bootstrap"/>}/>
       </Routes>
      </Router>
