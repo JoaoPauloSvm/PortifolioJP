@@ -13,7 +13,7 @@ import Scrum from '../../img/scrum.png';
 
 export default function Conhecimento(){
     return(
-        <div className="teste">
+        <div className="linguagens">
             <h1>Conhecimento</h1>
         <div className="conhecimento">
             <ul>    
