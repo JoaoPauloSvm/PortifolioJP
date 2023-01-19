@@ -47,7 +47,7 @@ function OffcanvasExample() {
                     title={idioma}
                     id={`offcanvasNavbarDropdown-expand-md`}
                   >
-                    <NavDropdown.Item><Link to="/" onClick={portugues} style={styles.Link}>Português</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to="/pt" onClick={portugues} style={styles.Link}>Português</Link></NavDropdown.Item>
                     <NavDropdown.Item>
                     <Link to="/eng" onClick={ingles} style={styles.Link}>English</Link>
                     </NavDropdown.Item>
