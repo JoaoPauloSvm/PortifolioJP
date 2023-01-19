@@ -5,7 +5,7 @@ import Dio from '../../img/dio-icon.png';
 
 import moment from 'moment';
 
-export default function Educacao() {
+export default function Educacao(props) {
 
     const ifsudeste = "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais";
     const dio = "Digital Innovation One";
@@ -28,7 +28,7 @@ export default function Educacao() {
 
     return (
         <div className="linguagens">
-            <h1>Educação</h1>
+            <h1>{props.titulo}</h1>
             <ul className="ul">
                 <li>
                     <Alert style={style}>
@@ -38,9 +38,9 @@ export default function Educacao() {
                             overlay={renderTooltip1}>
                             <Alert.Heading className="head"><a className="a" href="https://web.dio.me/home" target="_blank">DIO</a> <img style={{ width: "28px" }} src={Dio} alt="" /></Alert.Heading>
                         </OverlayTrigger>
-                        <p>Programa Fullstack Transforma Tec</p>
+                        <p>{props.programa} Fullstack Transforma Tec</p>
                         <hr />
-                        <p className="mb-0">mar / 2022 - out / 2022</p>
+                        <p className="mb-0">mar / 2022 - {props.mes} / 2022</p>
                     </Alert>
                 </li>
                 <li>
@@ -52,9 +52,9 @@ export default function Educacao() {
                         >
                             <Alert.Heading className="head"><a className="a" href="https://www.ifsudestemg.edu.br/" target="_blank">IF SUDESTE MG</a> <img style={{ width: "28px" }} src={IF} alt="" /></Alert.Heading>
                         </OverlayTrigger>
-                        <p>Gestão da Tecnologia da Informação</p>
+                        <p>{props.curso}</p>
                         <hr />
-                        <p className="mb-0">2021 - Atualmente</p>
+                        <p className="mb-0">2021 - {props.text}</p>
                         <ProgressBar max={131} variant="success" animated now={progresso} />
                     </Alert>
                 </li>

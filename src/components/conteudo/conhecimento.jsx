@@ -11,10 +11,10 @@ import Php from '../../img/php.png';
 import Think from '../../img/design-thinking.png';
 import Scrum from '../../img/scrum.png';
 
-export default function Conhecimento(){
+export default function Conhecimento(props){
     return(
         <div className="linguagens">
-            <h1>Conhecimento</h1>
+            <h1>{props.conhecimento}</h1>
         <div className="conhecimento">
             <ul>    
                 <li><img src={Html} alt="" />HTML</li>

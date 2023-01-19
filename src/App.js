@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Nav from './components/nav';
 import Conteudo from './components/conteudo';
+import Content from './components/content';
 import Footer from './components/footer';
 
 function App() {
@@ -12,11 +13,15 @@ function App() {
       <Router>
      <Nav/>
      <Routes>
-      <Route path = "/" exact element = {<Conteudo teste = "Idioma em Português"/>}/>
-      <Route path = "/eng"  element = {<Conteudo teste = "Language in English"/>}/>
+      <Route path = "/" exact element = {<Conteudo/>}/>
+      <Route path = "/eng"  element = {<Content/>}/>
      </Routes>
+      <Routes>
+      <Route path = "/" exact element = {<Footer texto =  "Portifólio desenvolvido com o React e Boostrap"/>}/>
+      <Route path = "/eng" element = {<Footer texto = "Portfolio developed with React and Bootstrap"/>}/>
+      </Routes>
      </Router>
-     <Footer/>
+     
     </div>
   );
 }
