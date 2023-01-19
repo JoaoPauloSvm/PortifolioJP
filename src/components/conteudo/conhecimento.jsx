@@ -17,18 +17,18 @@ export default function Conhecimento(props){
             <h1>{props.conhecimento}</h1>
         <div className="conhecimento">
             <ul>    
-                <li><img src={Html} alt="" />HTML</li>
-                <li><img src={Css} alt="" />CSS</li>
-                <li><img src={Javascript} alt="" />Javascript</li>
-                <li><img src={Php} alt="" />PHP</li>
-                <li><img src={Mysql} alt="" />MySQL</li>    
+                <li><img src={Html} alt="Logo HTML" />HTML</li>
+                <li><img src={Css} alt="Logo CSS" />CSS</li>
+                <li><img src={Javascript} alt="Logo Javascript" />Javascript</li>
+                <li><img src={Php} alt="Logo PHP" />PHP</li>
+                <li><img src={Mysql} alt="Logo MySQL" />MySQL</li>    
             </ul>
             <ul>
-                <li><img src={Bootstrap} alt="" />Bootstrap</li>
-                <li><img src={Think} alt="" />Design Thinking</li>
-                <li><img src={R} alt="" />React</li>
-                <li><img src={Rnative} alt="" style={{width: "32px"}} />React Native</li>
-                <li><img src={Scrum} alt="" />Scrum</li>  
+                <li><img src={Bootstrap} alt="Logo Bootstrap" />Bootstrap</li>
+                <li><img src={Think} alt="Design Thinking" />Design Thinking</li>
+                <li><img src={R} alt="Logo React" />React</li>
+                <li><img src={Rnative} alt="Logo React Native" style={{width: "32px"}} />React Native</li>
+                <li><img src={Scrum} alt="Scrum" />Scrum</li>  
             </ul>
         </div>
         </div>

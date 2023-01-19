@@ -11,9 +11,9 @@ export default function Footer(props){
     return(
         <div style={styles} className="footer">
             <div style={styles.image}>
-                <a href="" target="_blank"><img src={Git} alt="" /></a>
-                <a href="" target="_blank"><img src={Instagram} alt="" /></a>
-                <a href="" target="_blank"><img src={Linkedin} alt="" /></a>
+                <a href="https://github.com/JoaoPauloSvm" target="_blank"><img src={Git} alt="Logo Git" /></a>
+                <a href="https://www.instagram.com/joaopaulosvm/" target="_blank"><img src={Instagram} alt="Logo Instagram" /></a>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-svm-3881741b6/" target="_blank"><img src={Linkedin} alt="Logo Linkedin" /></a>
             </div>
             <span style={styles.fonte}>{props.texto}</span>
             <span style={styles.fonte}>João Paulo Souza dos Santos</span>
