@@ -1,5 +1,6 @@
 import React from "react";
-import { Alert, ProgressBar, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Alert, OverlayTrigger, Tooltip } from "react-bootstrap";
+import ProgressBar from 'react-bootstrap/ProgressBar';
 import IF from '../../img/favicon.ico';
 import Dio from '../../img/dio-icon.png';
 
@@ -36,7 +37,7 @@ export default function Educacao(props) {
                             placement="left"
                             delay={{ show: 250, hide: 400 }}
                             overlay={renderTooltip1}>
-                            <Alert.Heading className="head"><a className="a" href="https://web.dio.me/home" target="_blank">DIO</a> <img style={{ width: "28px" }} src={Dio} alt="" /></Alert.Heading>
+                            <Alert.Heading className="head"><a className="a" href="https://web.dio.me/home" target="_blank">DIO</a> <img style={{ width: "28px" }} src={Dio} alt="Logo DIO" /></Alert.Heading>
                         </OverlayTrigger>
                         <p>{props.programa} Fullstack Transforma Tec</p>
                         <hr />
@@ -50,7 +51,7 @@ export default function Educacao(props) {
                             delay={{ show: 250, hide: 400 }}
                             overlay={renderTooltip}
                         >
-                            <Alert.Heading className="head"><a className="a" href="https://www.ifsudestemg.edu.br/" target="_blank">IF SUDESTE MG</a> <img style={{ width: "28px" }} src={IF} alt="" /></Alert.Heading>
+                            <Alert.Heading className="head"><a className="a" href="https://www.ifsudestemg.edu.br/" target="_blank">IF SUDESTE MG</a> <img style={{ width: "28px" }} src={IF} alt="Logo Instituto Federal Sudeste de Minas" /></Alert.Heading>
                         </OverlayTrigger>
                         <p>{props.curso}</p>
                         <hr />
