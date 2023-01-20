@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortifolioJP/static/css/main.2c2e67d9.css",
+    "main.css": "/PortifolioJP/static/css/main.4725daca.css",
     "main.js": "/PortifolioJP/static/js/main.1edae0a3.js",
     "static/js/496.0320d045.chunk.js": "/PortifolioJP/static/js/496.0320d045.chunk.js",
     "static/media/foto.jpg": "/PortifolioJP/static/media/foto.ae7fe3dc961de6203b7f.jpg",
@@ -8,12 +8,12 @@
     "static/media/dio-icon.png": "/PortifolioJP/static/media/dio-icon.7e6707c88ed71d055a2b.png",
     "static/media/react-native.png": "/PortifolioJP/static/media/react-native.3d8c5bf10a177bd743e9.png",
     "index.html": "/PortifolioJP/index.html",
-    "main.2c2e67d9.css.map": "/PortifolioJP/static/css/main.2c2e67d9.css.map",
+    "main.4725daca.css.map": "/PortifolioJP/static/css/main.4725daca.css.map",
     "main.1edae0a3.js.map": "/PortifolioJP/static/js/main.1edae0a3.js.map",
     "496.0320d045.chunk.js.map": "/PortifolioJP/static/js/496.0320d045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c2e67d9.css",
+    "static/css/main.4725daca.css",
     "static/js/main.1edae0a3.js"
   ]
 }
