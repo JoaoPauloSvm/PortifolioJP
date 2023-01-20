@@ -18,6 +18,8 @@ export default function Footer(props){
             <span style={styles.fonte}>{props.texto}</span>
             <span style={styles.fonte}>João Paulo Souza dos Santos</span>
             <span style={styles.fonte}>2022 - {year}</span>
+            <div id = "contador" style = {{display: "none"}} align="right"><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-202YYZa822AW4wD7-57.gif' border='0' alt='visitas' /></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=202YYZa822AW4wD7'></script>
+            </div>
         </div>
     )
 }

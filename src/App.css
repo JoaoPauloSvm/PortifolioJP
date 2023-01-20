@@ -85,6 +85,14 @@ body{
  }
 .ul{
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+@media (max-width: 400px){
+  .ul > li {
+    margin-right: 25px;
+  }
 }
 .a{
   text-decoration: none;

@@ -26,7 +26,7 @@ function OffcanvasExample() {
     <>
         <Navbar expand= "md"className="mb-3">
           <Container fluid>
-            <Navbar.Brand><Link onClick={portugues} style={{color: "white", textDecoration: "none"}} to="/">João Paulo</Link></Navbar.Brand>
+            <Navbar.Brand><Link onClick={portugues} style={{color: "white", textDecoration: "none"}} to="/PortifolioJP">João Paulo</Link></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
             <Navbar.Offcanvas style={{background: "#031634"}}
               id={`offcanvasNavbar-expand-md`}

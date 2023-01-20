@@ -56,7 +56,7 @@ export default function Educacao(props) {
                         <p>{props.curso}</p>
                         <hr />
                         <p className="mb-0">2021 - {props.text}</p>
-                        <ProgressBar max={131} variant="success" animated now={progresso} />
+                        <ProgressBar max={131} animated now={progresso} />
                     </Alert>
                 </li>
             </ul>
